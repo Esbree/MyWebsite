@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "Liberation Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
   background-color: #0f172a;
   color: #e5e7eb;
 }
