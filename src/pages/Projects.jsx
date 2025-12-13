@@ -1,4 +1,8 @@
 function Projects() {
-  return <h1 style={{ padding: '3rem' }}>Projects</h1>
+  return (
+    <section style={{ padding: '4rem 0' }}>
+      <h1 style={{ fontSize: '2rem' }}>Projects</h1>
+    </section>
+  )
 }
 export default Projects

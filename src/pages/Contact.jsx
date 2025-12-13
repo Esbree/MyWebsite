@@ -1,7 +1,7 @@
 function Contact() {
   return (
-    <div style={{ padding: '3rem' }}>
-      <h1>Contact</h1>
+    <section style={{ padding: '4rem 0' }}>
+      <h1 style={{ fontSize: '2rem' }}>Contact</h1>
       <div style={{ marginTop: '2rem' }}>
         <a
           href="https://instagram.com/nv.pctrs"
@@ -29,7 +29,7 @@ function Contact() {
           nv.pctrs
         </p>
       </div>
-    </div>
+    </section>
   )
 }
 export default Contact
