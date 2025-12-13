@@ -1,4 +1,35 @@
 function Contact() {
-  return <h1 style={{ padding: '3rem' }}>Contact</h1>
+  return (
+    <div style={{ padding: '3rem' }}>
+      <h1>Contact</h1>
+      <div style={{ marginTop: '2rem' }}>
+        <a
+          href="https://instagram.com/nv.pctrs"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: 'none', display: 'inline-block' }}
+        >
+          <svg
+            width="64"
+            height="64"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ color: '#E4405F', cursor: 'pointer' }}
+          >
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37"></path>
+            <circle cx="17.5" cy="6.5" r="1.5"></circle>
+          </svg>
+        </a>
+        <p style={{ marginTop: '.25rem', fontSize: '1.1rem', color: "white" }}>
+          nv.pctrs
+        </p>
+      </div>
+    </div>
+  )
 }
 export default Contact
