@@ -25,7 +25,7 @@ function Contact() {
             <circle cx="17.5" cy="6.5" r="1.5"></circle>
           </svg>
         </a>
-        <p style={{ marginTop: '.25rem', fontSize: '1.1rem', color: "white" }}>
+        <p style={{ marginTop: '.25rem', fontSize: '1.1rem', color: "#414141" }}>
           nv.pctrs
         </p>
       </div>
