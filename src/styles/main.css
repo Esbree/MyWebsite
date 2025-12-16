@@ -103,3 +103,25 @@ nav div {
 .page-content.slide-right {
   animation: slideInRight 0.4s ease-out;
 }
+
+/* Instagram Grid - responsiv */
+.instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-top: 1.5rem;
+}
+
+/* Tablet: 2 Spalten */
+@media (max-width: 1024px) {
+  .instagram-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile: 1 Spalte */
+@media (max-width: 640px) {
+  .instagram-grid {
+    grid-template-columns: 1fr;
+  }
+}
